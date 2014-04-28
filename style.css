@@ -1,53 +1,53 @@
 body {
 	background-color: #667799;
+	padding: 0%;
+	border: 0%;
+	margin: 0%;
+	width: 100%;
 }
 
 .header {
 	background-color: #ddcccc;
-	margin: 0px -10px 0px -10px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+	text-align: center;
 }
 
 .second {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
 	background-color: #eecc99;
-	margin: -30px -10px 0px -10px;
 }
 
-.small-column {
-	width: 800px;
+.content-wrapper {
+	width: 70%;
 	margin: 0 auto;
+}
+
+.left-body {
+	width: 60%;
+	float: left;
+}
+
+.right-body {
+	width: 40%;
+	float: right;
 }
 
 h1 {
 	font-family: 'rodclaregular';
-	font-size: 200px;
+	font-size: 15em;
 	color: #667799;
 	font-weight: 100;
-	text-align: center;
 	margin-bottom: -20px;
-	padding-top: 5%;
-	text-shadow:
-		0 .005em #ccaa88,
-	    .005em 0 #ccaa88,
-	    .005em .010em #ccaa88,
-	    .010em .005em #ccaa88,
-	    .010em .015em #ccaa88,
-	    .015em .010em #ccaa88,
-	    .015em .020em #ccaa88,
-	    .020em .015em #ccaa88,
-	    .020em .025em #ccaa88,
-	    .025em .020em #ccaa88,
-	    .025em .030em #ccaa88,
-	    .030em .025em #ccaa88,
-	    .030em .035em #ccaa88,
-	    .035em .030em #ccaa88,
-	    .035em .040em #ccaa88,
-	    .040em .035em #ccaa88,
-	    .040em .045em #ccaa88;
 }
 
 h2 {
 	font-family: 'rodclaregular';
-	text-align: center;
 	color: #667799;
 	font-size: 50px;
 	font-weight: 400;
@@ -55,8 +55,16 @@ h2 {
 }	
 
 p {
+	font-family: 'Garamond';
+	font-style: italic;
+	font-size: 2em;
+	color: #667799;
+}
+
+.detail-letter {
 	font-family: 'rodclaregular';
-	font-size: 40px;
+	font-style: normal;
+	font-size: 3em;
 	color: #667799;
 }
 
