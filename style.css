@@ -1,0 +1,73 @@
+body {
+	background-color: #667799;
+}
+
+.header {
+	background-color: #ddcccc;
+	margin: 0px -10px 0px -10px;
+}
+
+.second {
+	background-color: #eecc99;
+	margin: -30px -10px 0px -10px;
+}
+
+.small-column {
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: 'rodclaregular';
+	font-size: 200px;
+	color: #667799;
+	font-weight: 100;
+	text-align: center;
+	margin-bottom: -20px;
+	padding-top: 5%;
+	text-shadow:
+		0 .005em #ccaa88,
+	    .005em 0 #ccaa88,
+	    .005em .010em #ccaa88,
+	    .010em .005em #ccaa88,
+	    .010em .015em #ccaa88,
+	    .015em .010em #ccaa88,
+	    .015em .020em #ccaa88,
+	    .020em .015em #ccaa88,
+	    .020em .025em #ccaa88,
+	    .025em .020em #ccaa88,
+	    .025em .030em #ccaa88,
+	    .030em .025em #ccaa88,
+	    .030em .035em #ccaa88,
+	    .035em .030em #ccaa88,
+	    .035em .040em #ccaa88,
+	    .040em .035em #ccaa88,
+	    .040em .045em #ccaa88;
+}
+
+h2 {
+	font-family: 'rodclaregular';
+	text-align: center;
+	color: #667799;
+	font-size: 50px;
+	font-weight: 400;
+	padding-bottom: 5%;
+}	
+
+p {
+	font-family: 'rodclaregular';
+	font-size: 40px;
+	color: #667799;
+}
+
+@font-face {
+    font-family: 'rodclaregular';
+    src: url('rodcla-regular_v3-webfont.eot');
+    src: url('rodcla-regular_v3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rodcla-regular_v3-webfont.woff') format('woff'),
+         url('rodcla-regular_v3-webfont.ttf') format('truetype'),
+         url('rodcla-regular_v3-webfont.svg#rodclaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
