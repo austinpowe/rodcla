@@ -1,5 +1,5 @@
 body {
-	background-color: #667799;
+	background-color: #8FEEAF;
 	padding: 0%;
 	border: 0%;
 	margin: 0%;
@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-	background-color: #ddcccc;
+	background-color: #FDF6E3;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
@@ -20,7 +20,7 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 	display: block;
-	background-color: #eecc99;
+	background-color: #E4E6FA;
 }
 
 .content-wrapper {
@@ -41,14 +41,14 @@ body {
 h1 {
 	font-family: 'rodclaregular';
 	font-size: 15em;
-	color: #667799;
+	color: #0B104F;
 	font-weight: 100;
 	margin-bottom: -20px;
 }
 
 h2 {
 	font-family: 'rodclaregular';
-	color: #667799;
+	color: #0B104F;
 	font-size: 50px;
 	font-weight: 400;
 	padding-bottom: 5%;
@@ -58,14 +58,40 @@ p {
 	font-family: 'Garamond';
 	font-style: italic;
 	font-size: 2em;
-	color: #667799;
+	color: #0B104F;
 }
 
 .detail-letter {
 	font-family: 'rodclaregular';
 	font-style: normal;
-	font-size: 3em;
-	color: #667799;
+	font-size: 200px;
+	line-height: .01em;
+	color: #D2AC41;
+	text-align: center;
+	text-shadow:
+ 		0 .005em #3B3E62,
+ 	    .005em 0 #3B3E62,
+ 	    .005em .010em #3B3E62,
+ 	    .010em .005em #3B3E62,
+ 	    .010em .015em #3B3E62,
+ 	    .015em .010em #3B3E62,
+ 	    .015em .020em #3B3E62,
+ 	    .020em .015em #3B3E62,
+ 	    .020em .025em #3B3E62,
+ 	    .025em .020em #3B3E62,
+ 	    .025em .030em #3B3E62,
+ 	    .030em .025em #3B3E62,
+ 	    .030em .035em #3B3E62,
+ 	    .035em .030em #3B3E62,
+ 	    .035em .040em #3B3E62,
+ 	    .040em .035em #3B3E62,
+	    .040em .045em #3B3E62,
+	    .045em .040em #3B3E62,
+	    .045em .050em #3B3E62,
+	    .050em .045em #3B3E62,
+	    .050em .055em #3B3E62,
+	    .055em .050em #3B3E62,
+	    .055em .060em #3B3E62;
 }
 
 @font-face {
