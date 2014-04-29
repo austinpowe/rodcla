@@ -9,27 +9,68 @@
 							}
 		</style>
 
-	<title>Rodcla - A Scholastic Sans Serif</title>
+	<title>Rodcla</title>
+
+	<style>
+	.drop {
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+	width:1px;
+	height:89px;
+	position: absolute;
+	bottom:200px;
+	-webkit-animation: fall .63s linear infinite;
+  -moz-animation: fall .63s linear infinite;
+
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
+}
+
+</style>
+
+    <script src="prefixfree.min.js"></script>
 
 </head>
 
 <body>
 
+<section class="rain"></section>
+
+  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
+
+  <script src="drops.js"></script>
+
 <div class="header">
 	<div class="small-column">
-		<h1>~Rodcla~</h1>
-		<h2>A tall, sans serif typeface <br>that'll knock your socks off.</h2>
+		<img class="umbrella" src="umbrella.png" alt="Welcome to Oregon" />
+		<h1>Rodcla</h1>
+		<h2>A tall, sans serif typeface<br>with human touches<br>designed in Oregon.</h2>
+				<p>
+			<a class="downloadlink" href="http://bit.ly/1ivfFwM">Download here!</a>
+		</p>
 	</div>
 </div>
 
 <div class="second">
 	<div class="content-wrapper">
 		<div class="left-body">
-			<h2>
+			<h3>
 				Rodcla was created to give tall serifs a good name. 
-			</h2>
+			</h3>
 			<p>
-				Fancy yet not aggressively upscale, femme yet not girly, personality-driven yet not loud. Let&#8217;s make something pretty.
+				<ol>
+					<li>Fancy yet unpretentious.</li>
+					<li>Inviting yet not smothering.</li>
+					<li>Personality-driven yet not precocious.</li>
+					<li>Cute yet not girly.</li>
+					<li>Light yet commanding.</li>
+				</ol>
 			</p>
 		</div>
 		<div class="right-body">
@@ -39,7 +80,9 @@
 </div>
 
 <div class="header">
-	<h2>Created by Austin Powe</h2>
+		<div class="content-wrapper">
+			<h3>Rodcla is a typeface by <a href="http://www.austinpowe.com">Austin Powe</a><br>that is available under the <a href="http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web">SIL Open Font License</a>.</h3>
+		</div>
 	</div>
 
 </body>

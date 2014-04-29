@@ -1,18 +1,26 @@
 body {
-	background-color: #8FEEAF;
+	background-color: #FFF;
 	padding: 0%;
 	border: 0%;
 	margin: 0%;
 	width: 100%;
 }
 
+.umbrella {
+	width: 10%;
+	height: auto;
+	margin-top: 2%;
+}
+
 .header {
-	background-color: #FDF6E3;
+	background-color: #66ccff;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
 	display: block;
 	text-align: center;
+	padding-bottom: 5%;
+	overflow-x: hidden;
 }
 
 .second {
@@ -20,7 +28,8 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 	display: block;
-	background-color: #E4E6FA;
+	background-color: #3399ff;
+	padding-top: 5%;
 }
 
 .content-wrapper {
@@ -29,36 +38,68 @@ body {
 }
 
 .left-body {
-	width: 60%;
+	width: 50%;
 	float: left;
 }
 
 .right-body {
-	width: 40%;
+	width: 50%;
 	float: right;
 }
 
 h1 {
 	font-family: 'rodclaregular';
 	font-size: 15em;
-	color: #0B104F;
+	color: #FFF;
 	font-weight: 100;
 	margin-bottom: -20px;
+	margin-top: 0px;
 }
 
 h2 {
 	font-family: 'rodclaregular';
-	color: #0B104F;
+	color: #FFF;
 	font-size: 50px;
-	font-weight: 400;
-	padding-bottom: 5%;
+	font-weight: 100;
+}	
+
+h3 {
+	font-family: 'rodclaregular';
+	color: #FFF;
+	font-size: 35px;
+	font-weight: 100;
+	line-height: .95em;
 }	
 
 p {
 	font-family: 'Garamond';
 	font-style: italic;
-	font-size: 2em;
-	color: #0B104F;
+	font-size: 28px;
+	color: #FFF;
+}
+
+ol {
+	font-family: 'Garamond';
+	font-style: italic;
+	font-size: 28px;
+	color: #FFF;
+}
+
+.downloadlink {
+	border: 2px solid #003366;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 10px;
+}
+
+a {
+	color: #003366;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFF;
 }
 
 .detail-letter {
@@ -66,32 +107,32 @@ p {
 	font-style: normal;
 	font-size: 200px;
 	line-height: .01em;
-	color: #D2AC41;
+	color: #66ccff;
 	text-align: center;
 	text-shadow:
- 		0 .005em #3B3E62,
- 	    .005em 0 #3B3E62,
- 	    .005em .010em #3B3E62,
- 	    .010em .005em #3B3E62,
- 	    .010em .015em #3B3E62,
- 	    .015em .010em #3B3E62,
- 	    .015em .020em #3B3E62,
- 	    .020em .015em #3B3E62,
- 	    .020em .025em #3B3E62,
- 	    .025em .020em #3B3E62,
- 	    .025em .030em #3B3E62,
- 	    .030em .025em #3B3E62,
- 	    .030em .035em #3B3E62,
- 	    .035em .030em #3B3E62,
- 	    .035em .040em #3B3E62,
- 	    .040em .035em #3B3E62,
-	    .040em .045em #3B3E62,
-	    .045em .040em #3B3E62,
-	    .045em .050em #3B3E62,
-	    .050em .045em #3B3E62,
-	    .050em .055em #3B3E62,
-	    .055em .050em #3B3E62,
-	    .055em .060em #3B3E62;
+ 		0 .005em #FFF,
+ 	    .005em 0 #FFF,
+ 	    .005em .010em #FFF,
+ 	    .010em .005em #FFF,
+ 	    .010em .015em #FFF,
+ 	    .015em .010em #FFF,
+ 	    .015em .020em #FFF,
+ 	    .020em .015em #FFF,
+ 	    .020em .025em #FFF,
+ 	    .025em .020em #FFF,
+ 	    .025em .030em #FFF,
+ 	    .030em .025em #FFF,
+ 	    .030em .035em #FFF,
+ 	    .035em .030em #FFF,
+ 	    .035em .040em #FFF,
+ 	    .040em .035em #FFF,
+	    .040em .045em #FFF,
+	    .045em .040em #FFF,
+	    .045em .050em #FFF,
+	    .050em .045em #FFF,
+	    .050em .055em #FFF,
+	    .055em .050em #FFF,
+	    .055em .060em #FFF;
 }
 
 @font-face {
