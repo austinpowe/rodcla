@@ -13,7 +13,8 @@ body {
 }
 
 .header {
-	background-color: #66ccff;
+ 	background: url('rain-v3.gif');
+ 	background-size: cover;
 	width: 100%;
 	margin: 0 auto;
 	overflow: hidden;
