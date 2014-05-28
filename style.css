@@ -171,3 +171,21 @@ a:hover.downloadlink {
     font-style: normal;
 
 }
+
+@media all and (max-width: 600px) {
+ h1 {
+ 	font-size: 100px;
+ }
+
+ h2 {
+ 	font-size: 40px;
+ }
+
+ h4 {
+ 	font-size: 60px;
+ }
+
+ .downloadlink {
+	padding: 10px;
+}
+}
