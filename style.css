@@ -30,11 +30,22 @@ body {
 	overflow: hidden;
 	display: block;
 	background-color: #3399ff;
-	padding-top: 5%;
+	padding-bottom: 1.3em;
+}
+
+.third {
+	background: url('rain-v3.gif');
+ 	background-size: cover;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	display: block;
+	overflow-x: hidden;
+	padding-bottom: 1.3em;
 }
 
 .content-wrapper {
-	width: 70%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -72,10 +83,22 @@ h3 {
 	line-height: .95em;
 }	
 
+h4 {
+	font-family: 'rodclaregular';
+	color: #FFF;
+	font-size: 100px;
+	font-weight: 100;
+	line-height: 1.1em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
 p {
 	font-family: 'Garamond';
-	font-style: italic;
-	font-size: 28px;
+	font-size: 18px;
+	letter-spacing: .5px;
+	font-weight: 400;
 	color: #FFF;
 }
 
@@ -91,7 +114,7 @@ ol {
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	padding: 10px;
+	padding: 20px;
 }
 
 a {
@@ -99,8 +122,9 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover.downloadlink {
 	color: #FFF;
+	border: 2px solid #FFF;
 }
 
 .detail-letter {
