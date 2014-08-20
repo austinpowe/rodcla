@@ -95,7 +95,7 @@ h4 {
 }
 
 p {
-	font-family: 'Garamond';
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 	letter-spacing: .5px;
 	font-weight: 400;
@@ -103,7 +103,7 @@ p {
 }
 
 ol {
-	font-family: 'Garamond';
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-style: italic;
 	font-size: 28px;
 	color: #FFF;
